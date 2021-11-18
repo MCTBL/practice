@@ -11,9 +11,6 @@ import java.util.Scanner;
  */
 public class 链表练习 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		链表练习 a=new 链表练习();
@@ -23,18 +20,6 @@ public class 链表练习 {
 		String q;
 		z=x.nextInt();
 		do {
-			/*if(z==1) {
-				System.out.println("请分别输入你要插入的位置和数据,用空格隔开");
-				c=x.nextInt();
-				q=x.nextLine();
-				a.add(c, q);
-			}else if(z==2) {
-				System.out.println("请输入你要删除的位置");
-				c=x.nextInt();
-				a.del(c);
-			}else if(z==3) {
-				a.speak();
-			}*/
 			switch(z) {
 			case 1:
 				System.out.println("请分别输入你要插入的位置和数据,用空格隔开");
@@ -61,13 +46,6 @@ public class 链表练习 {
 			z=x.nextInt();
 		}while(z!=0);
 		x.close();
-		/*a.add(0, "x");
-		a.add(1, "哈哈");
-		a.add(2, "傻逼qx");
-		a.add(2, "我是qx的爹");
-		a.del(2);
-		a.add(3, "data");
-		a.speak();*/
 	}
 
 	static class node{
